@@ -17,3 +17,4 @@ const Controls = ({ isPlaying, repeat, setRepeat, shuffle, setShuffle, currentSo
 );
 
 export default Controls;
+// repeat, prev song, pause/play, next song, shuffle

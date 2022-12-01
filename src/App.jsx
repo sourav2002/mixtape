@@ -25,7 +25,10 @@ const App = () => {
               <Route path="/search/:searchTerm" element={<Search />} />
             </Routes>
           </div>
-          <div className="xl:sticky relative top-0 h-fit">
+          {
+          // xl:sticky in topplay div classname
+          }
+          <div className=" relative xl:sticky top-0 h-fit">
             <TopPlay />
           </div>
         </div>
